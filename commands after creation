@@ -1,0 +1,14 @@
+SELECT book_name
+FROM books
+WHERE author_id = 6;
+
+
+SELECT book_name
+FROM books
+WHERE genre = 'Magical Realism';
+
+
+SELECT author_name
+FROM authors
+WHERE genre = 'Magical Realism';
+
